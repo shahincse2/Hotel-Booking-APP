@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RoomInfoActivity">
+
+    <TextView
+        android:id="@+id/textRoomInfo"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="#0B74C8"
+        android:text="Room Information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <Spinner
+        android:id="@+id/spinnerType"
+        android:entries="@array/type"
+        android:textColor="#FF9800"
+        android:background="@android:drawable/btn_dropdown"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Spinner>
+
+    <EditText
+        android:id="@+id/edName"
+        android:ems="10"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+        android:hint="Please Enter no of Rooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <EditText
+        android:id="@+id/edCheckin"
+        android:clickable="false"
+        android:focusable="false"
+        android:cursorVisible="false"
+        android:focusableInTouchMode="false"
+        android:hint="checkin date"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <EditText
+        android:id="@+id/edCheckout"
+        android:clickable="false"
+        android:focusable="false"
+        android:cursorVisible="false"
+        android:focusableInTouchMode="false"
+        android:hint="checkout date"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <Button
+        android:id="@+id/btnPreview"
+        android:text="Preview"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".PersonnelInfoActivity">
+    <TextView
+        android:id="@+id/textpersonal"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="@color/white"
+        android:text="Personnel Information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="330dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter Your Full Name"
+        android:inputType="textPersonName"
+        android:paddingHorizontal="20dp"></EditText>
+
+    <EditText
+        android:id="@+id/edEmail"
+        android:ems="10"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textEmailAddress"
+        android:hint="Enter Your Email Address"
+        android:layout_width="330dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="48dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/edPhone"
+        android:ems="10"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:hint="Enter Your Phone Number"
+        android:layout_width="330dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="48dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/edAddress"
+        android:ems="10"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textMultiLine"
+        android:hint="Enter Your Address"
+        android:layout_width="330dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="48dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/edNum"
+        android:ems="10"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:hint="Enter Number of Person"
+        android:layout_width="330dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="48dp">
+    </EditText>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_marginLeft="50pt"
+        android:layout_height="48dp"
+        android:layout_marginTop="100dp"
+        android:text="Next"></Button>
+
+</LinearLayout>
